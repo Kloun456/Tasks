@@ -26,7 +26,7 @@ void copy_matrix(double **coefficient, double **coefficient_temp, const int &n)
         for (int j = 0; j < n; j++)
             coefficient_temp[i][j] = coefficient[i][j];
     }
-}\
+}
 
 void multiplication_matrix(double *free_coef, double** coefficient, double* result, const int& n)
 {
